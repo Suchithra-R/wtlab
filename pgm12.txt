@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ div 
+ {
+ background-color: lightskyblue;
+ width: 300px;
+ border: 1px solid black;
+ padding: 10px;
+ margin: 20px;
+ }
+ </style>
+</head>
+<body>
+<form method="POST">
+<div>
+ <table>
+ <tr>
+ <td><label for="name">Name:</label></td>
+ <td><input type="text" id="name" name="name" style="border-width:3px; 
+border-style:solid; border-color:green;"></td>
+ </tr>
+ <tr>
+ <td><label for="usn">USN:</label></td>
+ <td><input type="text" id="usn" name="usn" style="border-width:3px; borderstyle:solid; border-color:green;"></td>
+ </tr> 
+ <tr>
+ <td><label for="email">E-mail id:</label></td>
+ <td><input type="text" id="email" name="email" style="border-width:3px; borderstyle:solid; border-color:green;"></td>
+ </tr>
+ </table>
+ <input type="submit" value="Register" style="border-width:3px; border-style:solid; 
+border-color:green;">
+</div>
+</form>
+<?php
+ $na = $_POST['name'];
+ $no = $_POST['usn'];
+ echo "Successful registered for"."<br>Name -> ".$na."<br>USN -> ".$no;
+?>
+</body>
+</html>

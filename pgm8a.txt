@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "Server name is: ";
+echo $_SERVER['PHP_SELF'];
+echo "<br>";
+echo "Server software is: ";
+echo $_SERVER['SERVER_SOFTWARE'];
+echo "<br>";
+echo "Server protocol is: ";
+echo $_SERVER['SERVER_PROTOCOL'];
+echo "<br>";
+echo "Server CGI version is: ";
+echo $_SERVER['GATEWAY_INTERFACE'];
+
+?>
+
+</body>
+</html>

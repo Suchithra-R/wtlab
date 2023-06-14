@@ -1,0 +1,9 @@
+<?php
+$a = (int)readline("Enter the first number");
+$b = (int)readline("Enter the second number");
+$c = (int)readline("Enter the third number ");
+$ans = max($a,$b,$c);
+echo "The maximum number is $ans";
+
+
+?>

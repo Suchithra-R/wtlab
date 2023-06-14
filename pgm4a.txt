@@ -1,0 +1,44 @@
+a.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4a</title>
+</head>
+<body>
+    <h1>Leftmost Vowel Position</h1>
+    <button onclick="LV()">Click here</button>
+
+    <script type="text/javascript">
+        function LVP(s)
+        {
+            var vowels=['a','e','i','o','u'];
+
+            for(var i=0;i<s.length;i++)
+            {
+                var char=s[i].toLowerCase();
+                if(vowels.includes(char))
+                {
+                    return i+1;
+                }
+            }
+                return -1;
+
+        }
+        function LV()
+        {
+            var str=prompt("Enter the string");
+            var pos=LVP(str);
+
+            if(pos!=-1)
+            {
+                alert("The position of the leftmost vowel in the entered string is "+pos);
+            }
+            else{
+                alert("No vowels in the entered string");
+            }
+        }
+    </script>
+</body>
+</html>

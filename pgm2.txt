@@ -1,0 +1,121 @@
+<!DOCTYPE html 
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Experiment xhtml</title>
+   <style>
+    body{
+        font-family:'Times New Roman';
+        background-color:beige;
+        margin:40px;
+    }
+    
+    table,th,td{
+        border: 2px solid brown;
+        border-collapse: collapse;
+        width:70%;
+        padding-right:130px;
+    }
+    
+    ul{
+        color:blue;
+        padding-right:150px;
+    }
+    
+    h3{
+        text-align:center;
+    }
+    th{
+        color:red;
+        padding:20px;
+        
+    }
+    
+    td{
+        padding:8px;
+    }
+    .span{
+        color:blueviolet;
+        background-color:bisque;
+        width:100%;
+    }
+
+    .main{
+        background-color: rgb(197, 181, 181);
+        display: flex;
+    }
+    .one{
+        background-color: aqua;
+    }
+    .two{
+        background-color:aquamarine;
+    }
+
+    .three{
+        background-color: bisque;
+    }
+    
+   </style>
+</head>
+<body>
+    <h1>WT lab exam</h1>
+    <div class="main">
+        <div class="one">
+    <h3>Ordered list</h3>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+</div>
+<div class="two">
+    <h3>Table of Cricketers</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Runs</th>
+            <th>Wickets</th>
+            <th>IPL team</th>
+        </tr>
+        <tr>
+            <td>Virat Kohli</td>
+            <td>43</td>
+            <td>15000</td>
+            <td>27</td>
+            <td>RCB</td>
+        </tr>
+
+        <tr>
+            <td>MS Dhoni</td>
+            <td>46</td>
+            <td>7000</td>
+            <td>3</td>
+            <td>CSK</td>
+        </tr>
+
+        <tr>
+            <td>Rohit Sharma</td>
+            <td>43</td>
+            <td>8000</td>
+            <td>10</td>
+            <td>MI</td>
+        </tr>
+        
+        <tr>
+            <td>Hardik Pandya</td>
+            <td>33</td>
+            <td>3000</td>
+            <td>87</td>
+            <td>GT</td>
+        </tr>
+    </table>
+    </div>
+    <div class="three">
+    <h3>Use of <span class="span"> span tag</span></h3>
+    <p>Hellooooooooo <span class="span">Anvitha..(This is highlighted due to use of span tag)</span></p>
+</div>
+</div>
+</body>
+</html>

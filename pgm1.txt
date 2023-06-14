@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Styling Example</title>
+  <link rel="stylesheet" type="text/css" href="1st.css">
+</head>
+<body>
+  <h1>Styling Example</h1>
+  
+  <h2>Ordered List:</h2>
+  <ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ol>
+  
+  <h2>Table with Borders, Padding, and Color:</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>John Doe</td>
+      <td>25</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>30</td>
+      <td>Canada</td>
+    </tr>
+  </table>
+  
+  <h2><span class="highlight">Highlighted Text</span> using the <code>&lt;span&gt;</code> tag:</h2>
+  <p>This is a <span class="highlight">highlighted text</span>.</p>
+</body>
+</html>
+
+
+1.css
+/* styles.css */
+
+body {
+    /* font-family:'Times New Roman'; */
+    background-color: #f5f5f5;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #555;
+  }
+  
+  ol {
+    color: #666;
+    padding-left: 20px;
+  }
+  
+  table {
+    border-collapse:separate;
+    width: 50%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  .highlight {
+    background-color: yellow;
+  }
+
+

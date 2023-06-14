@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ div 
+ {
+ background-color: lightskyblue;
+ width: 300px;
+ border: 1px solid black;
+ padding: 10px;
+ margin: 20px;
+ }
+ </style>
+</head>
+<body>
+<form method="GET">
+<div> 
+ <label for="fname">Enter your First name:</label>
+ <input type="text" id="fname" name="fname" style="border-width:3px; borderstyle:solid; border-color:green;"><br><br>
+ <label for="lname">Enter your Last name:</label>
+ <input type="text" id="lname" name="lname" style="border-width:3px; borderstyle:solid; border-color:green;"><br><br>
+ <input type="submit" value="Submit" style="border-width:3px; border-style:solid; 
+border-color:green;">
+</div>
+</form>
+<?php
+ $fir = $_GET['fname'];
+ $las = $_GET['lname'];
+ echo "Welcome ".$fir." ".$las;
+?>
+</body>
+</html>

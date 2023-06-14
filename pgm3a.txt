@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <button onclick="GFN()">Generate Fibinocci numbers</button>
+    <script type="text/javascript">
+        function GFN()
+        {
+            var n=prompt("Enter the limit");
+            n=parseInt(n);
+
+            var arr=[0,1];
+
+            for(var i=2;i<n;i++)
+            {
+                arr[i]=arr[i-1]+arr[i-2];
+            }
+
+            var output="Fibinocci numbers: "+arr.join(", ");
+            document.write(output);
+        }
+    </script>
+</body>
+</html>
